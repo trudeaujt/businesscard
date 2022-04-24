@@ -1,0 +1,112 @@
+html, body {
+    /*margin: 0;*/
+    display: contents;
+    /*box-sizing: border-box;*/
+}
+
+.fill-window {
+    display: flex;
+    height: 100vh;
+    background-color: #23252C;
+}
+
+.card {
+    margin: auto;
+    width: 317px;
+    height: 780px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.cover {
+    height: 317px;
+}
+
+.about {
+    height: 399px;
+    background-color: #1A1B21;
+}
+
+.about > p {
+    margin-bottom: 0;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.name {
+    margin-top: 21px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.title {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F3BF99;
+}
+
+.website {
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+#wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    margin-top: 16px;
+    width: 247px;
+    height: 34px;
+    text-align: center;
+}
+
+.sub {
+    margin-top: 27px;
+    width: 247px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subHeader {
+    margin-block: 0;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.subText {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+.footer {
+    height: 64px;
+    background-color: #161619;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
